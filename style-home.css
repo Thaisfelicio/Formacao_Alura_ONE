@@ -1,0 +1,52 @@
+/*
+    Não é recomendado criar estilos usando tags
+        O ideal é usarmos classes para tudo
+*/
+
+body{
+
+}
+#banner{
+    width: 100%;
+}
+.principal{
+    background-color: #cccccc;
+    padding: 30px;
+}
+
+.titulo-principal{
+    padding-left: 20px;
+}
+p{
+    text-align: center;
+}
+#missao{
+    font-size: 20px;
+}
+
+/* vai aplicar o efeito em todos os strong q estiverem dentro do em */
+em strong{
+    color: #ff0000;/*cor em hexadecimal, ff é o máximo de cor, e 00 é a ausência da cor, os primeiros 2 numeros sao o vermelho, os outros 2 são verde e os 2 ultimos são o azul*/
+}
+.itens{
+    font-style: italic;
+}
+
+.beneficios{
+    background-color: white;
+    padding: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagem_beneficios{
+    width: 50%;
+}
